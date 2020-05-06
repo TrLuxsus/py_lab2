@@ -5,7 +5,7 @@ import teacher
 class Student(person.Person):
     def __init__(self, name, surname, age):
         super().__init__(name, surname, age)
-        self.teacher = list()
+        self.teacher = teacher.Teacher
 
     @property
     def teacher(self):
